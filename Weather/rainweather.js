@@ -33,6 +33,8 @@ async function getWeather() {
     }
 }
 
+
+
 // Main function: check weather and mint if raining
 async function checkRainAndMint() {
     //const weather = await getWeather();
@@ -60,3 +62,5 @@ async function checkRainAndMint() {
 
 // Run the script
 checkRainAndMint();
+
+//test
