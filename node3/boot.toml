@@ -1,0 +1,12 @@
+data-path = "data"
+genesis-file = "../cliqueGenesis.json"
+static-nodes-file = "../static-nodes.json"
+#bootnodes = ["enode://1b9461137b9393481c014c414571e98d905f73712fc50dee9134c86b43144342a6beaa2b65a303217976fd54bc9211bb133f8d8324abbbe7fa6d015b3ec68e1b@127.0.0.1:30303"]
+network-id = 1337
+p2p-port = 30305
+rpc-http-enabled = true
+rpc-http-api = ["ETH", "NET", "CLIQUE", "WEB3", "ADMIN"]
+# host-whitelist = ["*"]
+rpc-http-cors-origins = ["all"]
+rpc-http-port = 8547
+profile = "ENTERPRISE"

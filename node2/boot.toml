@@ -1,0 +1,11 @@
+data-path = "data"
+genesis-file = "../cliqueGenesis.json"
+static-nodes-file = "../static-nodes.json"
+network-id = 1337
+p2p-port = 30304
+rpc-http-enabled = true
+rpc-http-api = ["ETH", "NET", "CLIQUE", "WEB3", "ADMIN"]
+# host-whitelist = ["*"]
+rpc-http-cors-origins = ["all"]
+rpc-http-port = 8546
+profile = "ENTERPRISE"

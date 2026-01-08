@@ -1,0 +1,32 @@
+{
+  "abi": [
+    {
+      "inputs":[{"internalType":"address","name":"_beneficiary","type":"address"}],
+      "stateMutability":"nonpayable",
+      "type":"constructor"
+    },
+    {
+      "anonymous": false,
+      "inputs":[
+        {"indexed":false,"internalType":"address","name":"to","type":"address"},
+        {"indexed":false,"internalType":"uint256","name":"amount","type":"uint256"}
+      ],
+      "name":"RainMinted",
+      "type":"event"
+    },
+    {
+      "inputs":[{"internalType":"bool","name":"isRaining","type":"bool"}],
+      "name":"reportRain",
+      "outputs":[],
+      "stateMutability":"nonpayable",
+      "type":"function"
+    },
+    {
+      "inputs":[{"internalType":"address","name":"","type":"address"}],
+      "name":"balanceOf",
+      "outputs":[{"internalType":"uint256","name":"","type":"uint256"}],
+      "stateMutability":"view",
+      "type":"function"
+    }
+  ]
+}
