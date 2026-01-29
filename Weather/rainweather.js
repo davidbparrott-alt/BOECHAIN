@@ -62,5 +62,3 @@ async function checkRainAndMint() {
 
 // Run the script
 checkRainAndMint();
-
-//test
